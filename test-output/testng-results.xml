@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Group of group suite" duration-ms="52" started-at="2015-08-21T10:29:03Z" finished-at="2015-08-21T10:29:03Z">
+    <groups>
+      <group name="include-test-one">
+        <method signature="RegularExpressionGroupTest.testMethodOne()[pri:0, instance:Maven.TestNG.RegularExpressionGroupTest@1888ff2c]" name="testMethodOne" class="Maven.TestNG.RegularExpressionGroupTest"/>
+      </group> <!-- include-test-one -->
+      <group name="test-two-exclude">
+        <method signature="RegularExpressionGroupTest.testMethodFour()[pri:0, instance:Maven.TestNG.RegularExpressionGroupTest@1888ff2c]" name="testMethodFour" class="Maven.TestNG.RegularExpressionGroupTest"/>
+      </group> <!-- test-two-exclude -->
+      <group name="include-test-two">
+        <method signature="RegularExpressionGroupTest.testMethodTwo()[pri:0, instance:Maven.TestNG.RegularExpressionGroupTest@1888ff2c]" name="testMethodTwo" class="Maven.TestNG.RegularExpressionGroupTest"/>
+      </group> <!-- include-test-two -->
+      <group name="test-one-exclude">
+        <method signature="RegularExpressionGroupTest.testMethodThree()[pri:0, instance:Maven.TestNG.RegularExpressionGroupTest@1888ff2c]" name="testMethodThree" class="Maven.TestNG.RegularExpressionGroupTest"/>
+      </group> <!-- test-one-exclude -->
+    </groups>
+    <test name="TestNG ne" duration-ms="52" started-at="2015-08-21T10:29:03Z" finished-at="2015-08-21T10:29:03Z">
+      <class name="Maven.TestNG.RegularExpressionGroupTest">
+        <test-method status="PASS" signature="testMethodFour()[pri:0, instance:Maven.TestNG.RegularExpressionGroupTest@1888ff2c]" name="testMethodFour" duration-ms="17" started-at="2015-08-21T17:29:03Z" finished-at="2015-08-21T17:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodFour -->
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:Maven.TestNG.RegularExpressionGroupTest@1888ff2c]" name="testMethodOne" duration-ms="1" started-at="2015-08-21T17:29:03Z" finished-at="2015-08-21T17:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne -->
+        <test-method status="PASS" signature="testMethodThree()[pri:0, instance:Maven.TestNG.RegularExpressionGroupTest@1888ff2c]" name="testMethodThree" duration-ms="1" started-at="2015-08-21T17:29:03Z" finished-at="2015-08-21T17:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodThree -->
+        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:Maven.TestNG.RegularExpressionGroupTest@1888ff2c]" name="testMethodTwo" duration-ms="1" started-at="2015-08-21T17:29:03Z" finished-at="2015-08-21T17:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwo -->
+      </class> <!-- Maven.TestNG.RegularExpressionGroupTest -->
+      <class name="Maven.TestNG.AppTest">
+        <test-method status="PASS" signature="oneMoreTest()[pri:0, instance:Maven.TestNG.AppTest@4563e9ab]" name="oneMoreTest" duration-ms="1" started-at="2015-08-21T17:29:03Z" finished-at="2015-08-21T17:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneMoreTest -->
+      </class> <!-- Maven.TestNG.AppTest -->
+    </test> <!-- TestNG ne -->
+  </suite> <!-- Group of group suite -->
+</testng-results>

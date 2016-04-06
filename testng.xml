@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Group of group suite">
+	<test name="TestNG ne">
+		<groups>
+			<define name="include-group">
+				<include name="include-test-one" />
+				<include name="include-test-two" />
+			</define>
+			<define name="exclude-group">
+				<include name="test-one-exclude" />
+				<include name="test-two-exclude" />
+			</define>
+<!-- 			<run> 
+			<include name="include-group" /> 
+			<exclude name="exclude-group" 
+				/> </run> -->
+		</groups>
+		<parameter name="Valid_UserB" value="admin" />
+		<parameter name="Valid_PassB" value="devteam" />
+		<classes>
+<!-- 			<class name="Maven.TestNG.RegularExpressionGroupTest"></class>
+			<class name="Maven.TestNG.AppTest"></class>
+ -->			<class name="Maven.TestNG.Login_inMaven"></class>
+		</classes>
+	</test>
+
+	<!-- USE THE CODE BELOW IF RUNNING <RUN> TAG IN <GROUP> TAG -->
+	<!-- <test name="Check thu"> <classes> <class name="Maven.TestNG.AppTest" 
+		/> </classes> </test> -->
+	<!-- <test name="Check thu2"> <classes> <class name="Maven.TestNG.Login_inMaven"></class> 
+		</classes> </test> -->
+</suite>

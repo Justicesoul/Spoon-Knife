@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Maven.TestNG.Login_inMaven">
+        <methods>
+          <include name="Login_Valid"/>
+        </methods>
+      </class> <!-- Maven.TestNG.Login_inMaven -->
+      <class name="Maven.TestNG.AppTest">
+        <methods>
+          <include name="oneMoreTest"/>
+        </methods>
+      </class> <!-- Maven.TestNG.AppTest -->
+      <class name="Maven.TestNG.ParallelSuiteTest">
+        <methods>
+          <include name="testMethodOne"/>
+        </methods>
+      </class> <!-- Maven.TestNG.ParallelSuiteTest -->
+      <class name="Maven.TestNG.RegularExpressionGroupTest">
+        <methods>
+          <include name="testMethodTwo"/>
+          <include name="testMethodOne"/>
+          <include name="testMethodThree"/>
+          <include name="testMethodFour"/>
+        </methods>
+      </class> <!-- Maven.TestNG.RegularExpressionGroupTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
